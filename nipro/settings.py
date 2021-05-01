@@ -61,7 +61,7 @@ ROOT_URLCONF = 'nipro.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['../frontend/templates/frontend', 'frontend/template/frontend/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
