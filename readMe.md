@@ -10,7 +10,8 @@ Download the project with git clone github.com/Xavier577/Nipro.git
 
 # Installs
 
-If you have pipenv installed, Run 
+If you have pipenv installed, 
+>Run 
 ```
 pipenv install (to install packages in pipfile)
 ```
