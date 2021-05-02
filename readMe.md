@@ -10,31 +10,32 @@ Download the project with git clone github.com/Xavier577/Nipro.git
 
 # Installs
 
-If you have pipenv installed, 
+If you have pipenv installed, in the root directory
 >Run 
 ```
 pipenv install (to install packages in pipfile)
 ```
-Run
-```bash
+>Run
+```
 python manage.py makemigrations
 
-jt@Tsegen$ python manage.py migrate (so that python can save our changes)
+python manage.py migrate 
 
-python manage.py runserver 
+python manage.py runserver (this runs the server)
 ```
-Then go to (cd into) the frontend directory and Run,
+>Then 
+```
+cd frontend 
 
 npm install (to install the dependencies in the package.json file).
 
-Then,
-
 npm run dev (to render the react templates)
+```
 
 Then you should have the web-app all well and running :) .
 
 And if you don't have pipenv installed you can just install all the packages in the Pipfile
-or if you have them installed (by chance)  it should work just fine. :)
+or if you have them installed (by chance) it should work just fine. :)
 
 # App status
 
