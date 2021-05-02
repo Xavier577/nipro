@@ -6,7 +6,7 @@ directory
 
 # Get started
 
-Download the project with git clone github.com/Xavier577/Nipro.git
+Download the project with [git clone](github.com/Xavier577/Nipro.git)
 
 # Installs
 
