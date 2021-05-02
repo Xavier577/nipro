@@ -21,15 +21,15 @@ python manage.py makemigrations
 
 python manage.py migrate 
 
-python manage.py runserver (this runs the server)
+python manage.py runserver 
 ```
 >To install dependencies and run render the react app
 ```
 cd frontend 
 
-npm install (to install the dependencies in the package.json file).
+npm install 
 
-npm run dev (to render the react templates)
+npm run dev 
 ```
 
 After completing the steps, you should have the web-app all well and running :) .
