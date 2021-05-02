@@ -14,6 +14,11 @@ If you have pipenv installed, Run
 
 pipenv install (to install packages in pipfile)
 
+Run,
+
+python manage.py makemigrations
+python manage.py migrate (so that python can save our changes)
+
 Run: python manage.py runserver to run the server in the base directory(the directory that contains all the entire project).
 
 Then go to (cd into) the frontend directory and Run,
