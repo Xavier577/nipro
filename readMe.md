@@ -11,16 +11,16 @@ Download the project with git clone github.com/Xavier577/Nipro.git
 # Installs
 
 If you have pipenv installed, Run 
-
-pipenv install (to install packages in pipfile)
-
-Run
 ```
+pipenv install (to install packages in pipfile)
+```
+Run
+```bash
 python manage.py makemigrations
 
-python manage.py migrate (so that python can save our changes)
+jt@Tsegen$ python manage.py migrate (so that python can save our changes)
 
-python manage.py runserver to run the server in the base directory(the directory that contains all the entire project).
+python manage.py runserver 
 ```
 Then go to (cd into) the frontend directory and Run,
 
