@@ -1,7 +1,7 @@
 # Overview
 
 This is a Django(React) application called Nipro. It's purpose is to connect developers
-locally in my region(Nigeria). For more info on the project check the [Application.md] (github/Xavier577/Nipro.git/documentation/Application.md) file in the documentation
+locally in my region(Nigeria). For more info on the project check the [Application.md](github/Xavier577/Nipro.git/documentation/Application.md) file in the documentation
 directory
 
 # Get started
