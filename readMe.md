@@ -32,7 +32,7 @@ python manage.py migrate
 > Create a .env file (in the nipro directory) and add:
 
 ```
-SECRET_KEY='whatever your secret key is'
+SECRET_KEY='whatever your generated secret key is'
 
 ```
 
