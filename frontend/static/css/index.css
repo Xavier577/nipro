@@ -1,6 +1,22 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+/* Variables*/
+:root {
+  /* Usage for imported fonts */
+  --nova-flat: "Nova Flat", cursive;
+  --nova-square: "Nova Square", cursive;
+}
+/* General presets */
 * {
   box-sizing: border-box;
 }
 body {
-  background-color: aquamarine;
+  background-color: whitesmoke;
+}
+
+#nipro-logo {
+  font-family: var(--nova-square);
+  font-size: 2rem;
+  color: rgb(32, 95, 155);
 }
