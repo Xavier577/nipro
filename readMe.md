@@ -12,6 +12,13 @@ Download the project with `git clone (github.com/Xavier577/Nipro.git)`
 
 If you have pipenv installed, in the root directory follow the steps below:
 
+>Activate pipenv environment
+
+```
+pipenv shell
+
+```
+
 > To install packages in pipfile run
 
 ```
