@@ -8,6 +8,7 @@ export default function App() {
       <p>construction in progress......</p>
       <p>It appears to work</p>
       <p>let's start working</p>
+      <p> i am currently working on design and learn more about databases</p>
     </div>
   );
 }
