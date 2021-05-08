@@ -20,9 +20,22 @@ pipenv install
 python manage.py makemigrations
 
 python manage.py migrate 
-
-python manage.py runserver 
 ```
+# generate a django secret key 
+>Go to [Djecrety](https://djecrety.ir/) and generate a django secret key
+> Create a .env file (in the nipro directory) and add:
+```
+SECRET_KEY='whatever your secret key is'
+
+```
+please not that there is no space between the assignment operator and the key
+
+> Run the server 
+ ```
+ python manage.py runserver
+ 
+ ```
+ 
 >To install dependencies and run render the react app
 ```
 cd frontend 
@@ -33,14 +46,7 @@ npm run dev
 
 ```
 
-# generating a django secret key
->Go to (Djecrety)[https://djecrety.ir/] and generate a django secret key
-> Create a .env file (in the nipro directory) and add:
-```
-SECRET_KEY='whatever your secret key is'
 
-```
-please not that there is no space between the assignment operator and the key
 
 After completing the steps, you should have the web-app all well and running :) .
 
