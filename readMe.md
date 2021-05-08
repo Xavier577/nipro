@@ -21,7 +21,7 @@ python manage.py makemigrations
 
 python manage.py migrate 
 ```
-# generate a django secret key 
+# Generating a django secret key 
 >Go to [Djecrety](https://djecrety.ir/) and generate a django secret key
 > Create a .env file (in the nipro directory) and add:
 ```
