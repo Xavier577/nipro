@@ -37,6 +37,14 @@ After completing the steps, you should have the web-app all well and running :) 
 
 And if you don't have pipenv installed you can just install all the packages in the Pipfile
 or if you have them installed (by chance) it should work just fine. :)
+Please note the you need set a django secret key in a .env file (in the nipro directory) as follows:
+
+```
+SECRET_KEY='whatever your secret key is'
+```
+
+i didn't include it because i wasn't sure if it was a good idea to push a secret key to github
+
 
 # App status
 
