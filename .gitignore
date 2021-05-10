@@ -1,9 +1,5 @@
-# node_modules
+# node modules
 node_modules
 
-
-# database
-db.sqlite3
-
-#env
+# dotenv
 .env
