@@ -12,7 +12,7 @@ Download the project with `git clone (github.com/Xavier577/Nipro.git)`
 
 If you have pipenv installed, in the root directory follow the steps below:
 
->Activate pipenv environment
+> Activate pipenv environment
 
 ```
 pipenv shell
@@ -52,14 +52,14 @@ python manage.py runserver
 
 ```
 
-> To install dependencies and run render the react app
+> To install dependencies and run render the react app(with live reload)
 
 ```
 cd frontend
 
 npm install
 
-npm run dev
+npm run start
 
 ```
 

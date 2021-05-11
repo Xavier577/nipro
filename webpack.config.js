@@ -1,18 +1,21 @@
 const path = require("path");
-const webpack = require("webpack");
+//const webpack = require("webpack");
 
 module.exports = {
-  entry: "./src/index.js",
+  // file that compilations would be built from
+  entry: [path.resolve(__dirname, "./nipro/frontend/src/index.js")],
   output: {
     // where compiled files go
-    path: path.resolve(__dirname, "./nipro/frontend/static/public"),
-    filename: "[name].js",
+    path: path.resolve(__dirname, "./nipro/frontend/static/frontend/"),
+    // 127.0.0.1/static/frontend/public/ where files are served from
+    publicPath: "./static/frontend/",
+    filename: "bundle.js",
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
+        test: /\.(js|jsx|mjs)$/,
+        exclude: /(node_modules|bower_components)/,
         use: {
           loader: "babel-loader",
         },

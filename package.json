@@ -4,7 +4,7 @@
   "description": "A platform to connect Nigrian developers",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js --mode development",
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
     "serve": "webpack serve",
