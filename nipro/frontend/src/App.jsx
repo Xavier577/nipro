@@ -1,12 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
+import Homepage from "./pages/Homepage/Homepage.jsx";
 
 export default function App() {
   return (
-    <div>
-      <h1 id="nipro-logo">Nipro</h1>
-      <p>construction in progress......</p>
-      <p>hot-reload working</p>
-    </div>
+    <Fragment>
+      <Router>
+        <Switch>
+          <Route path="/">
+            <Homepage />
+          </Route>
+        </Switch>
+      </Router>
+    </Fragment>
   );
 }
