@@ -1,12 +1,9 @@
 import React, { Fragment } from "react";
-
+import Nav from "../../components/Nav/Nav";
 export default function Homepage() {
   return (
     <Fragment>
-      <div>
-        <h1 id="nipro-logo">Nipro</h1>
-        <p>construction in progress......</p>
-      </div>
+      <Nav />
     </Fragment>
   );
 }

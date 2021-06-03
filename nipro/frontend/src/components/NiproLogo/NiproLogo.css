@@ -1,0 +1,9 @@
+.nipro-logo {
+  display: flex;
+  font-family: var(--nova-square);
+  font-size: 2rem;
+}
+.globe {
+  position: relative;
+  top: -3px;
+}

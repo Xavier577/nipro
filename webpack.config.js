@@ -1,4 +1,5 @@
 const path = require("path");
+const svgToMiniDataURI = require("mini-svg-data-uri");
 //const webpack = require("webpack");
 
 module.exports = {
@@ -25,6 +26,37 @@ module.exports = {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
+	 {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
+     // {
+     //   test: /\.svg$/i,
+     //   use: [
+     //     {
+     //       loader: "url-loader",
+     //       options: {
+     //         generator: (content) => svgToMiniDataURI(content.toString()),
+     //         encoding: false,
+     //       },
+     //     },
+     //   ],
+     // },
     ],
   },
   resolve: {

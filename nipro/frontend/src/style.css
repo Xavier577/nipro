@@ -8,18 +8,23 @@
   --nova-square: "Nova Square", cursive;
 
   /* Colors */
+  --hover-color: #ffffff11;
   --color-1: #205f9b;
+  --body-dark: #0d1117;
+  --nav-bar-dark: #161921;
+  --blood-red: #a81d60;
+  --primary-text-color: #f5f5f5;
 }
 /* General presets */
 * {
   box-sizing: border-box;
 }
 body {
-  background-color: whitesmoke;
+  background-color: var(--body-dark);
+  color: #ffffff;
 }
-
-#nipro-logo {
-  font-family: var(--nova-square);
-  font-size: 2rem;
-  color: black;
+h1,
+p {
+  font-family: Lato;
+  color: white;
 }
