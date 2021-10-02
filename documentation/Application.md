@@ -1,4 +1,4 @@
-# Overview (Discription)
+# Overview (Description)
 
 Nipro is a community for local developers, software engineers or tech enthusiast aimed towards
 making a community where local developers can make interactions with each other by asking questions,
