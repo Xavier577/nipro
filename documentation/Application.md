@@ -28,9 +28,11 @@ The Intial scope of this app will be centered towards local regions but could be
 
 # Tools (Technologies)
 
-1. Git
+1. Git (version control)
 2. React (javascript)
 3. Django (python)
-4. Django-rest-framework
-5. SQL database (to be decided which one)
-6. CSS or Material ui (to be decided)
+4. Postgresql
+5. Sass and Material UI
+6. React Query (for data fetching from backend api)
+7. Axios
+8. Redux (state management)

@@ -1,8 +1,14 @@
-# Overview
+# Nipro
 
-This is a Django(React) application called Nipro. It's purpose is to connect developers
-locally in my region(Nigeria). For more info on the project check the [Application.md](https://github.com/Xavier577/Nipro/blob/prod/documentation/Application.md) file in the documentation
+Nipro is a platform that was created for the purpose of connecting developers especially newbie developers. For more info on the project check the [Application.md](https://github.com/Xavier577/Nipro/blob/prod/documentation/Application.md) file in the documentation
 directory
+
+## Structure
+
+| Codebase       |  Description   |
+| :------------- | :------------: |
+| [niver](niver) | Django Backend |
+| [nitro](nitro) | React Frontend |
 
 # Get started
 
@@ -36,7 +42,7 @@ python manage.py migrate
 # Generating a django secret key
 
 > Go to [Djecrety](https://djecrety.ir/) and generate a django secret key
-> Create a .env file (in the nipro/nipro directory) and add:
+> Create a .env file (in the niver/niver directory) and add:
 
 ```
 SECRET_KEY='whatever your generated secret key is'
