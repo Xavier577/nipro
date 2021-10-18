@@ -12,31 +12,27 @@ directory
 
 # Get started
 
-Download the project with `git clone (github.com/Xavier577/Nipro.git)`
+Download the project with
 
-# Installs
+```
+$ git clone  github.com/Xavier577/nipro.git
+```
+
+# Installs Dependencies
 
 If you have pipenv installed, in the root directory follow the steps below:
 
 > Activate pipenv environment
 
 ```
-pipenv shell
+$ pipenv shell
 
 ```
 
 > To install packages in pipfile run
 
 ```
-pipenv install
-```
-
-> To save changes
-
-```
-python manage.py makemigrations
-
-python manage.py migrate
+$ pipenv install
 ```
 
 # Generating a django secret key
@@ -54,18 +50,18 @@ please not that there is no space between the assignment operator and the key
 > Run the server
 
 ```
-python manage.py runserver
+$ python manage.py runserver
 
 ```
 
-> To install dependencies and run render the react app(with live reload)
+# Setting up the frontend environment
 
 ```
-cd frontend
+$ cd niver
 
-npm install
+$ yarn install
 
-npm run start
+$ yarn start
 
 ```
 

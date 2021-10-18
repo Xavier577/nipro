@@ -5,6 +5,7 @@ making a community where local developers can make interactions with each other 
 writing tech tips(like article from Dev community),write comments and so on. This application
 is also geared towards helping new developers find solutions to problems by asking questions, or reading
 an answer from a previously asked question that had already been answered similiar to the format of stackoverflow.
+
 So essentially Nipro is an hybrid application (literally in the technical sense) in the sense that it
 mimics the some core features in two mention pre-existing platform into a single application.
 Nipro is an acronym for Nigerian Programmer, as it seeks to help programmers in Nigeria.
